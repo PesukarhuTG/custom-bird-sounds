@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eco-sound</title>
+  <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js" type="module" defer></script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header-container">
+      <svg class="icon icon-logo" data-sound="forest">
+        <use xlink:href="assets/svg/sprite.svg#icon-logo" data-sound="forest"></use>
+      </svg>
+      <nav class="header__navigation">
+        <ul class="navigation">
+          <li class="navigation__item" data-sound="solovey">
+            <span class="headling">Соловей</span>
+            <img class="images__item" src="assets/img/bird-solovey.jpg" alt="solovey" width="110" height="110">
+          </li>
+          <li class="navigation__item" data-sound="drozd">
+            <span class="headling">Дрозд</span>
+            <img class="images__item" src="assets/img/bird-drozd.jpg" alt="drozd" width="110" height="110">
+          </li>
+          <li class="navigation__item" data-sound="zarynka">
+            <span class="headling">Малиновка</span>
+            <img class="images__item" src="assets/img/bird-malinovka.jpg" alt="zarynka" width="110" height="110">
+          </li>
+          <li class="navigation__item" data-sound="javoronok">
+            <span class="headling">Жаворонок</span>
+            <img class="images__item" src="assets/img/bird-javoronok.jpg" alt="javoronok" width="110" height="110">
+          </li>
+          <li class="navigation__item" data-sound="slavka">
+            <span class="headling">Славка</span>
+            <img class="images__item" src="assets/img/bird-slavka.jpg" alt="slavka" width="110" height="110">
+          </li>
+        </ul>
+      </nav>
+      <div class="burger-menu">
+        <div class="burger-menu-lines">
+          <div class="burger-menu-line-1"></div>
+          <div class="burger-menu-line-2"></div>
+          <div class="burger-menu-line-3"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <button class="play-button">
+      <svg class="icon icon-play">
+        <use class="icon-play-set" xlink:href="assets/svg/sprite.svg#icon-play"></use>
+      </svg>
+    </button>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="copyright">
+        <span class="copyright__item copyright__sign">©</span>
+        <span class="copyright__item copyright__year">2022</span>
+        <a class="copyright__item copyright__link" href="https://github.com/PesukarhuTG" target="_blank">pesukarhutg</a>
+      </div>
+      <a class="logo-link" href="https://rs.school/js-stage0/" target="_blank">
+        <svg class="icon icon-rss">
+          <use xlink:href="assets/svg/sprite.svg#icon-rss"></use>
+        </svg>
+      </a>
+    </div>
+  </footer>
+
+</body>
+
+</html>
